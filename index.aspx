@@ -5,17 +5,35 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <title>SUSU-Box Sign In!</title>
-    <link href="css/animate.css" rel="stylesheet" />
-    <link href="css/bootstrap-responsive.css" rel="stylesheet" />
-    <link href="css/bootstrap.css" rel="stylesheet" />
-    <link href="css/docs.css" rel="stylesheet" />
-    <link href="css/flexslider.css" rel="stylesheet" />
-    <link href="css/font-awesome.css" rel="stylesheet" />
-    <link href="css/headerfix.css" rel="stylesheet" />
-    <link href="css/overwrite.css" rel="stylesheet" />
-    <link href="css/prettyPhoto.css" rel="stylesheet" />
-    <link href="css/refineslide.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet" />
+    
+    <link href="../css/animate.css" rel="stylesheet" type="text/css" />
+    <link href="../css/bootstrap-responsive.css" rel="stylesheet" type="text/css" />
+    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="../css/docs.css" rel="stylesheet" type="text/css" />
+    <link href="../css/flexslider.css" rel="stylesheet" type="text/css" />
+    <link href="../css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="../css/headerfix.css" rel="stylesheet" type="text/css" />
+    <link href="../css/overwrite.css" rel="stylesheet" type="text/css" />
+    <link href="../css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+    <link href="../css/refineslide.css" rel="stylesheet" type="text/css" />
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+
+
+    <%-- JAVA SCRIPT --%>
+   <%-- <script src="js/bootstrap.js"></script>
+    <script src="js/cbpAnimatedHeader.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.ui.totop.js"></script>
+    <script src="js/jquery.refineslide.js"></script>
+    <script src="js/modernizr.js"></script>--%>
+
+    <!-- fav and touch icons -->
+<%--<link rel="shortcut icon" href="index.aspx"  webstripperwas="assets/ico/favicon.ico" >--%>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -69,31 +87,9 @@
                 <li>Generate reports on your expenses</li>
 				<li>Visualise expenditure</li>
             </ul>			
+		<a class="btn btn-success">Register</a>
+		</div>
 		
-		</div>
-		<div class="span6">
-
-			<div class="group section-wrap upper" id="upper">
-            <div class="section-2 group">
-				<ul id="images" class="rs-slider">
-				    <li class="group">
-				        <a href="#">
-				            <img src="assets/img/slides/refine/slide1.png"  webstripperwas="assets/img/slides/refine/slide1.png" alt="" />
-				        </a>
-				    </li>
-				    <li class="group">
-				        <a href="#" class="slide-parent">
-				            <img src="assets/img/slides/refine/slide2.png"  webstripperwas="assets/img/slides/refine/slide2.png" alt=""/>
-				        </a>
-				    </li>
-				    <li class="group">
-				        <img src="assets/img/slides/refine/slide3.png"  webstripperwas="assets/img/slides/refine/slide3.png" alt=""/>
-				    </li>
-				</ul>
-            </div> <!-- /.section-2 -->
-			</div>
-
-		</div>
 		</div>
 	</div>
 
@@ -107,7 +103,7 @@
 				<i class="icon-bg-light icon-circled icon-code icon-5x active"></i>
 				</div>
 				<div class="features_content">
-				<h3>Valid Coding</h3>
+				<h3>Spend</h3>
 				<p class="left">
 					 Dolorem adipiscing definiebas ut nec. Dolore consectetuer eu vim, elit molestie ei has, petentium imperdiet in pri mel virtute nam.
 				</p>
@@ -121,7 +117,7 @@
 				<i class="icon-bg-dark icon-circled icon-bug icon-5x"></i>
 				</div>
 				<div class="features_content">
-				<h3>Bug free</h3>
+				<h3>Reocord</h3>
 				<p class="left">
 					 Dolorem adipiscing definiebas ut nec. Dolore consectetuer eu vim, elit molestie ei has, petentium imperdiet in pri mel virtute nam.
 				</p>
@@ -135,7 +131,7 @@
 				<i class="icon-bg-dark icon-circled icon-android icon-5x"></i>
 				</div>
 				<div class="features_content">
-				<h3>Mobile ready</h3>
+				<h3>Visualise </h3>
 				<p class="left">
 					 Dolorem adipiscing definiebas ut nec. Dolore consectetuer eu vim, elit molestie ei has, petentium imperdiet in pri mel virtute nam.
 				</p>
